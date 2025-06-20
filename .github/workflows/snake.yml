@@ -1,4 +1,3 @@
-@@ -1,51 +1,48 @@
 name: generate-snake
 
 on:
@@ -50,5 +49,5 @@ jobs:
             -e PLUGIN_AUTH_TYPE="https" \
             -e PLUGIN_USERNAME="cnb" \
             -e PLUGIN_PASSWORD=${{ secrets.GIT_PASSWORD }} \
-            -e PLUGIN_FORCE="true" \More actions
+            -e PLUGIN_FORCE="true" \
             tencentcom/git-sync
