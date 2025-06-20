@@ -1,5 +1,5 @@
 # SDCOM 
-Hi！这里是SDCOM！
+Hi！这里是SDCOM！一个刚刚初中毕业的初中生，正在学习编程，谢谢大家！
 
 ![GitHub Snake](https://cdn.jsdmirror.cn/gh/SDCOM-0415/SDCOM-0415@main/out/github-snake.svg)
 
@@ -31,7 +31,5 @@ Hi！这里是SDCOM！
 | [frps-shell](https://cnb.cool/SDCOM/frps-shell) | 基于原版 frp 内网穿透服务端 frps 的一键安装卸载脚本和 docker 镜像 | Shell | 2025-04-25 | 0 | 0 |
 | [Docker](https://cnb.cool/SDCOM/Docker) | docker构建 | Shell | 2024-11-02 | 0 | 0 |
 | [homebrew_mirrors](https://cnb.cool/SDCOM/homebrew_mirrors) | homebrew_mirrors | Shell | 2025-01-26 | 0 | 0 |
-| [nezha](https://cnb.cool/SDCOM/nezha) |  | Go | 2024-11-07 | 0 | 0 |
-| [test](https://cnb.cool/SDCOM/test) | empy |  | 2024-11-28 | 0 | 0 |
 | [linux_system_info](https://cnb.cool/SDCOM/linux_system_info) | https://github.com/SDCOM-0415/linux_system_info | License | 2024-11-28 | 0 | 0 |
 
