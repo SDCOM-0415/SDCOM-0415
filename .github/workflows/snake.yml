@@ -18,7 +18,7 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-snake.svg
+          svg_out_path: out/github-snake.svg
           snake_color: '#00FF00'
           
       - name: Push changes to repository
