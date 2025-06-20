@@ -1,0 +1,16 @@
+name: generate-snake
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"  # 每30分钟运行一次
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@master
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          svg_out_path: dist/github-snake.svg
+          snake_color: '#00FF00'
