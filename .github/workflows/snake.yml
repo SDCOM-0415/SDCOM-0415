@@ -1,3 +1,4 @@
+@@ -1,51 +1,48 @@
 name: generate-snake
 
 on:
@@ -26,6 +27,8 @@ jobs:
             out/github-snake.svg
             out/github-snake-dark.svg?palette=github-dark
             out/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit files
         run: |
@@ -33,7 +36,10 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit --allow-empty -m "update github-contribution-grid-snake.svg" -a
-          git push
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Sync to CNB Repository
         run: |
@@ -44,5 +50,5 @@ jobs:
             -e PLUGIN_AUTH_TYPE="https" \
             -e PLUGIN_USERNAME="cnb" \
             -e PLUGIN_PASSWORD=${{ secrets.GIT_PASSWORD }} \
-            -e PLUGIN_FORCE="true" \
+            -e PLUGIN_FORCE="true" \More actions
             tencentcom/git-sync
