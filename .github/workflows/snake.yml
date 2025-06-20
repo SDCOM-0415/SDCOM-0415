@@ -8,9 +8,24 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: Platane/snk@master
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Generate snake animation
+        uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: dist/github-snake.svg
           snake_color: '#00FF00'
+          
+      - name: Push changes to repository
+        run: |
+          mkdir -p dist
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add dist/github-snake.svg
+          git commit -m "Generate snake animation" || echo "No changes to commit"
+          git push
