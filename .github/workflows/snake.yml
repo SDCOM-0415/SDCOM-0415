@@ -17,7 +17,7 @@ jobs:
       - name: Generate snake animation
         uses: Platane/snk@master
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: SDCOM-0415
           svg_out_path: out/github-snake.svg
           snake_color: '#00FF00'
           
