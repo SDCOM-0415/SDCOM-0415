@@ -1,7 +1,7 @@
 # SDCOM 
 Hi！这里是SDCOM！一个刚刚初中毕业的初中生，正在学习编程，谢谢大家！
 
-![GitHub Snake](https://cdn.jsdmirror.cn/gh/SDCOM-0415/SDCOM-0415@main/out/github-snake.svg)
+![GitHub Snake](out/github-snake.svg)
 
 ## 概览
 
