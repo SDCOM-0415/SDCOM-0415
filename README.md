@@ -1,5 +1,5 @@
 # SDCOM 
-Hi！这里是SDCOM！一个刚刚初中毕业的初中生，正在学习编程，谢谢大家！
+Hi！这里是SDCOM！一个刚刚上五年制大专的大专生，正在学习编程，谢谢大家！
 
 
 
@@ -7,7 +7,7 @@ Hi！这里是SDCOM！一个刚刚初中毕业的初中生，正在学习编程�
 
 ![GitHub Snake](out/github-snake.svg)
 
-- **仓库总数**: 106
-- **组织数量**: 7
+- **仓库总数**: 122
+- **组织数量**: 8
 - **官方网站**: [https://www.sdcom.asia](https://www.sdcom.asia) [https://www.sdcom.top](https://www.sdcom.top)
 
